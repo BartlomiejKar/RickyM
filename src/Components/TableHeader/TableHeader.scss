@@ -1,0 +1,17 @@
+.table-header {
+  &__container {
+    display: flex;
+    max-width: 1160px;
+    margin: auto;
+    margin-bottom: 25px;
+    gap: 50px;
+  }
+  &__filters-wrapper {
+    display: flex;
+    gap: 36px;
+  }
+  &__buttons-wrapper {
+    display: flex;
+    gap: 25px;
+  }
+}

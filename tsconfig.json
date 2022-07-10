@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "ES2016",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": true,
+        "strictNullChecks": false,
+        "module": "CommonJS",
+        "allowJs": true,
+        "checkJs": true,
+        "jsx": "react",
+        "lib": [
+            "ES2015",
+            "ES2016",
+            "ES2017",
+            "ES2019",
+            "ES2021",
+            "DOM"
+        ]
+    },
+    "include": [
+        "src/**/*",
+        // "server.js",
+        "index.d.ts"
+    ],
+    "outDir": "dist"
+
+
+}
