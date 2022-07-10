@@ -4,8 +4,7 @@ import React from "react";
 const values = [
   {
     value: "??",
-    label:
-      "Hej, nie wiedziałem do końca co mam wyświetlić :) Lokacje czy origin. Na lokacje mamy api na origin musialby zebrac z wynikow :)",
+    label: "Hej, brakło mi czasu.",
   },
 ];
 const OriginFilter = () => {
