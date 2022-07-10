@@ -19,7 +19,6 @@ class CommunicationRickMorty {
   public static async GET_charactersFromNextPage(
     url: string
   ): Promise<IResponse> {
-    console.log(url);
     try {
       const response = await fetch(url, {
         method: "GET",
